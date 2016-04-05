@@ -72,9 +72,10 @@ vel VelKoz
 vik Viktor
 vlad Vladimir
 voli Volibear
-wk Wukong
+wk MonkeyKing
 wolf Kindred
-wu Wukong
+wu MonkeyKing
+wukong MonkeyKing
 ww Warwick
 xin XinZhao
 yas Yasuo
