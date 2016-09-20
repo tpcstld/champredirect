@@ -16,7 +16,7 @@ ROLE_WORDS = {
     "Top": ["top"],
     "Jungle": ["jungle", "jg"],
     "Middle": ["middle"],
-    "ADC": ["adc", "bot"],
+    "ADC": ["adc", "bottom"],
     "Support": ["support"],
 }
 
@@ -114,4 +114,4 @@ def search(path):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
