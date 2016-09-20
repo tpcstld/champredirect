@@ -26,6 +26,9 @@ ROLE_MAPPING = {}
 
 
 def on_startup():
+    """Executed when the service is started.
+    Populates the champion and role mappings.
+    """
     global CHAMPION_MAPPING
     global ROLE_MAPPING
 
@@ -37,11 +40,12 @@ def on_startup():
         for line in mapping_data:
             alias, champion = line.split()
             CHAMPION_MAPPING[alias] = champion
-            # print(alias, "->", name)
 
     for role_name in ROLE_WORDS:
         words = ROLE_WORDS[role_name]
         for word in words:
+            # For user convenience, we also want every prefix of a whole
+            # term to refer to the same term.
             for x in range(1, len(word) + 1):
                 ROLE_MAPPING[word[:x]] = role_name
 
