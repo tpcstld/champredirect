@@ -4,6 +4,7 @@ asol AurelionSol
 au AurelionSol
 bear Volibear
 blitz Blitzcrank
+cam Camille
 cait Caitlyn
 cass Cassiopeia
 cho Chogath
@@ -16,6 +17,8 @@ grag Gragas
 hec Hecarim
 heim Heimerdinger
 heimer Heimerdinger
+jar JarvanIV
+jarvan JarvanIV
 j4 JarvanIV
 k6 Khazix
 kal Kalista
